@@ -1,7 +1,47 @@
-p {color:red;} /*赤色*/
+h1 {
+    color: #EEEEEE;
+}
+
 body {
     background-image: url("../image/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+}
+
+#menu div {
+    text-align: center;
+    margin-left:auto;margin-right:auto;
+    vertical-align: middle;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    border: 1px solid #666;
+    background-color: #ccc;
+    padding: 3px;
+    text-decoration: none;
+    color: #333;
+    width: 100px;
+    margin: 1px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#menu li a:hover {
+    background-color: #2d56be;
+    color: #fff;
 }
