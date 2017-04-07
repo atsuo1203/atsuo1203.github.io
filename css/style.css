@@ -1,1 +1,7 @@
-p {color:red;}           /*赤色*/
+p {color:red;} /*赤色*/
+body {
+    background-image: url("../image/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
